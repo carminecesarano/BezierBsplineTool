@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2092325525" file="C:\Users\Alessandro\OneDrive - Università di Napoli Federico II\M63\CN\Elaborato\M63_946_948_1045\Elaborato\BBSToolbox.prj" location="C:\Users\Alessandro\OneDrive - Università di Napoli Federico II\M63\CN\Elaborato\M63_946_948_1045\Elaborato" name="BBSToolbox" target="target.mlapps" target-name="Package App">
+    <param.appname>BBSToolbox</param.appname>
+    <param.authnamewatermark>A.Castaldo, C.Cesarano, R.Allocca</param.authnamewatermark>
+    <param.email />
+    <param.company>Università degli Studi di Napoli Fed.II</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Toolbox per la generazione e il confronto di curve di Bézier e Spline</param.description>
+    <param.screenshot>C:\Users\Alessandro\AppData\Local\Temp\tp76d861ad_7095_4164_9aee_7430fcd7b193.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>9f8c2e1a-d33d-47c3-aca2-aa48d8a76e38</param.guid>
+    <unset>
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\provaapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\B_spline_custom.m</file>
+      <file>${PROJECT_ROOT}\B_spline_MATLAB.m</file>
+      <file>${PROJECT_ROOT}\Bezier_custom.m</file>
+      <file>${PROJECT_ROOT}\Bezier_MATLAB.m</file>
+      <file>${PROJECT_ROOT}\chitarra.jpg</file>
+      <file>${PROJECT_ROOT}\CoxDeBoor.m</file>
+      <file>${PROJECT_ROOT}\legendUnq.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Alessandro\OneDrive - Università di Napoli Federico II\M63\CN\Elaborato\M63_946_948_1045" name="Elaborato" optional="false">C:\Users\Alessandro\OneDrive - Università di Napoli Federico II\M63\CN\Elaborato\M63_946_948_1045\Elaborato</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
