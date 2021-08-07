@@ -7,3 +7,4 @@ It allows the fitting of curves from a list of points in cartesian coordinates o
 <img src="img/UI.png">
 </div>
 <br />
+
